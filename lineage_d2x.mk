@@ -24,8 +24,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 ## Inscreen Fingerprint HAL
 TARGET_HAVE_FOD := true
 
-## Inherit from beyondx device
-$(call inherit-product, device/samsung/beyondx/device.mk)
+## Inherit from d2x device
+$(call inherit-product, device/samsung/d2x/device.mk)
 
 ## Boot Animation
 TARGET_BOOTANIMATION_HALF_RES := true
@@ -39,10 +39,10 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_NAME := lineage_beyondx
-PRODUCT_DEVICE := beyondx
+PRODUCT_NAME := lineage_d2x
+PRODUCT_DEVICE := d2x
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-G977B
+PRODUCT_MODEL := SM-N976B
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung

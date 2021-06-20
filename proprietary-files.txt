@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version G977BXXS8FUE5, unless pinned
+# Proprietary files - from Samsung package version N976BXXS7FUEA, unless pinned
 
 ## Audio
 vendor/etc/floating_feature.xml
@@ -19,8 +19,8 @@ vendor/firmware/bcm4375B1_semco.hcd
 vendor/firmware/bcm4375B1_semco_sem.hcd
 
 ## Camera
-vendor/lib/hw/camera.exynos9820.so
-vendor/lib64/hw/camera.exynos9820.so
+vendor/lib/hw/camera.exynos9825.so
+vendor/lib64/hw/camera.exynos9825.so
 
 ## Camera dependencies
 vendor/lib/libexynoscamera3.so
@@ -39,7 +39,7 @@ vendor/firmware/cs35l40-rcv-dsp1-spk-prot-calib.bin
 vendor/firmware/cs35l40-rcv-dsp1-spk-prot.bin
 vendor/firmware/fimc_is_fw_mcu.bin
 vendor/firmware/setfile_2l4.bin
-vendor/firmware/setfile_3m3.bin
+vendor/firmware/setfile_3m5.bin
 vendor/firmware/setfile_3p9.bin
 
 ## GPS

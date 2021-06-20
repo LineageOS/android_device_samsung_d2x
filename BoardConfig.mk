@@ -17,9 +17,9 @@
 include device/samsung/exynos9820-common/BoardConfigCommon.mk
 
 ## Inherit from the proprietary configuration
-include vendor/samsung/beyondx/BoardConfigVendor.mk
+include vendor/samsung/d2x/BoardConfigVendor.mk
 
-DEVICE_PATH := device/samsung/beyondx
+DEVICE_PATH := device/samsung/d2x
 
 ## APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
@@ -30,7 +30,7 @@ TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
 TARGET_SCREEN_DENSITY := 420
 
 ## Kernel
-TARGET_KERNEL_CONFIG := exynos9820-beyondx_defconfig
+TARGET_KERNEL_CONFIG := exynos9820-d2x_defconfig
 
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
