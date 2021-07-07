@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version N976BXXS7FUEA, unless pinned
+# Proprietary files - from Samsung package version N976BXXS7FUF5, unless pinned
 
 ## Audio
 vendor/etc/LVACFS_Calibration.dat
