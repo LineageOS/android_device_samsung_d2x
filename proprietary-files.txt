@@ -4,6 +4,7 @@
 vendor/etc/LVACFS_Calibration.dat
 vendor/etc/LVACFS_Configuration.txt
 vendor/etc/LVACFS_ControlParams.txt
+vendor/etc/dolby/dax-default.xml
 vendor/etc/floating_feature.xml
 vendor/etc/mixer_gains.xml
 vendor/etc/mixer_paths.xml
@@ -17,6 +18,7 @@ vendor/lib/vendor.samsung_slsi.hardware.ExynosA2DPOffload@3.0.so
 vendor/lib/hw/audio.primary.exynos9825.so
 vendor/lib/hw/sound_trigger.primary.exynos9825.so
 vendor/lib/soundfx/libaudioeffectoffload.so
+vendor/lib/soundfx/libswdap.so
 vendor/lib64/soundfx/libaudioeffectoffload.so
 
 ## Audio Firmware
