@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version N976BXXS7FUF5, unless pinned
+# Proprietary files - from Samsung package version N976BXXU7FUH3, unless pinned
 
 ## Audio
 vendor/etc/LVACFS_Calibration.dat
@@ -12,7 +12,7 @@ vendor/lib/libaudioproxy.so
 vendor/lib/libaudio_soundtrigger.so
 vendor/lib/librecordalive.so
 vendor/lib/lib_lvacfs.so
-vendor/lib/lib_SamsungRec_08010.so
+vendor/lib/lib_SamsungRec_08020.so
 vendor/lib/vendor.samsung.hardware.bluetooth.a2dp@1.0.so
 vendor/lib/vendor.samsung_slsi.hardware.ExynosA2DPOffload@3.0.so
 vendor/lib/hw/audio.primary.exynos9825.so
@@ -26,6 +26,7 @@ vendor/firmware/APBargeIn_AUDIO_SLSI.bin
 vendor/firmware/APBiBF_AUDIO_SLSI.bin
 vendor/firmware/APDV_AUDIO_SLSI.bin
 vendor/firmware/APSV_AUDIO_SLSI.bin
+vendor/firmware/APTV_AUDIO_SLSI.bin
 vendor/firmware/AP_AUDIO_SLSI.bin
 vendor/firmware/SoundBoosterParam.bin
 vendor/firmware/calliope_dram_2.bin
@@ -98,6 +99,7 @@ vendor/firmware/setfile_4ha.bin
 vendor/firmware/sv.bin
 vendor/firmware/txse1.bin
 vendor/firmware/txse2.bin
+vendor/firmware/txse3.bin
 vendor/firmware/vts.bin
 
 ## Gatekeeper
@@ -110,9 +112,12 @@ vendor/lib64/hw/gralloc.exynos9825.so
 
 ## GPS
 vendor/bin/hw/gpsd
+vendor/bin/hw/vendor.samsung.hardware.gnss@2.1-service
 vendor/etc/gnss/gps.xml
 vendor/etc/init/init.gps.rc
+vendor/etc/init/vendor.samsung.hardware.gnss@2.1-service.rc
 vendor/lib64/libwrappergps.so
+vendor/lib64/vendor.samsung.hardware.gnss@2.1.so
 vendor/lib64/hw/gps.default.so
 vendor/lib64/hw/android.hardware.gnss@2.1-impl.so
 vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
@@ -138,7 +143,6 @@ vendor/firmware/fimc_is_rta.bin
 vendor/bin/secril_config_svc
 vendor/etc/plmn_se13.bin
 vendor/etc/init/init.baseband.rc
-vendor/lib/libsec-ril.so
 vendor/lib64/libsec-ril.so
 
 ## Sensors
