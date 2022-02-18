@@ -24,6 +24,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 ## Inscreen Fingerprint HAL
 TARGET_HAVE_FOD := true
 
+## S Pen
+TARGET_HAVE_SPEN := true
+
 ## Inherit from d2x device
 $(call inherit-product, device/samsung/d2x/device.mk)
 
