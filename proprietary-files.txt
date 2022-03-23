@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version N976BXXS7GVB1, unless pinned
+# Proprietary files - from Samsung package version N976BXXU7HVC6, unless pinned
 
 ## Audio
 vendor/etc/LVACFS_Calibration.dat
@@ -40,18 +40,16 @@ vendor/firmware/bcm4375B1_murata.hcd
 vendor/firmware/bcm4375B1_semco.hcd
 vendor/firmware/bcm4375B1_semco_sem.hcd
 
-## Camera
--vendor/lib/hw/camera.exynos9825.so
--vendor/lib64/hw/camera.exynos9825.so
+## Camera - from d2x - N976BXXS7GVB1
+-vendor/lib64/hw/camera.exynos9825.so|eba7419002ab6da18526d76cdf180fd7bca89ded
+-vendor/lib64/libexynoscamera3.so|7816c732d95bcf861a4e96b80d87fb3ec570798e
 
 ## Camera dependencies
 -vendor/lib/libTOFProc_interface.so
 -vendor/lib/libdatazip.so
--vendor/lib/libexynoscamera3.so
 -vendor/lib/libiu456_datapath_processor.so
 -vendor/lib64/libTOFProc_interface.so
 -vendor/lib64/libdatazip.so
--vendor/lib64/libexynoscamera3.so
 -vendor/lib64/libiu456_datapath_processor.so
 
 # libc++ from prebuilts/vndk/v28 - android-12.0.0_r18
@@ -123,7 +121,7 @@ vendor/etc/init/vendor.samsung.hardware.gnss@2.1-service.rc
 -vendor/lib64/vendor.samsung.hardware.gnss@2.1.so
 -vendor/lib64/hw/gps.default.so
 -vendor/lib64/hw/android.hardware.gnss@2.1-impl.so
--vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
+-vendor/lib64/hw/vendor.samsung.hardware.gnss@2.1-impl.so
 
 ## HWC
 -vendor/lib/libexynosdisplay.so
