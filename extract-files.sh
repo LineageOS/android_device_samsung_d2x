@@ -8,7 +8,7 @@
 
 function blob_fixup() {
     case "${1}" in
-        vendor/lib/hw/audio.primary.exynos9820.so)
+        vendor/lib/hw/audio.primary.exynos9825.so)
             "${PATCHELF}" --remove-needed libaudio_soundtrigger.so "${2}"
             "${PATCHELF}" --add-needed libshim_audioparams.so "${2}"
             sed -i 's/str_parms_get_str/str_parms_get_mod/g' "${2}"
