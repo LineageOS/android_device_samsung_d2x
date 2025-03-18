@@ -2,7 +2,7 @@
 
 ## Audio - Dolby Atmos
 vendor/etc/dolby/dax-default.xml
--vendor/lib/soundfx/libswdap.so
+vendor/lib/soundfx/libswdap.so
 
 ## Audio Firmware
 vendor/firmware/APBargeIn_AUDIO_SLSI.bin
@@ -25,16 +25,13 @@ vendor/firmware/bcm4375B1_semco.hcd
 vendor/firmware/bcm4375B1_semco_sem.hcd
 
 ## Camera - from d2x - N976BXXS7GVB1
--vendor/lib64/hw/camera.exynos9825.so|eba7419002ab6da18526d76cdf180fd7bca89ded
--vendor/lib64/libexynoscamera3.so|7816c732d95bcf861a4e96b80d87fb3ec570798e
+vendor/lib64/hw/camera.exynos9825.so|eba7419002ab6da18526d76cdf180fd7bca89ded
+vendor/lib64/libexynoscamera3.so|7816c732d95bcf861a4e96b80d87fb3ec570798e|7816c732d95bcf861a4e96b80d87fb3ec570798e
 
 ## Camera dependencies
--vendor/lib/libTOFProc_interface.so
--vendor/lib/libdatazip.so
--vendor/lib/libiu456_datapath_processor.so
--vendor/lib64/libTOFProc_interface.so
--vendor/lib64/libdatazip.so
--vendor/lib64/libiu456_datapath_processor.so
+vendor/lib64/libTOFProc_interface.so
+vendor/lib64/libdatazip.so
+vendor/lib64/libiu456_datapath_processor.so
 
 ## Camera Firmware
 vendor/firmware/fimc_is_fw_mcu.bin
@@ -45,10 +42,8 @@ vendor/firmware/fimc_is_rta.bin
 vendor/etc/media_codecs_performance.xml
 
 ## Fingerprint
--vendor/lib/libbauthserver.so
--vendor/lib/libbauthtzcommon.so
--vendor/lib64/libbauthserver.so
--vendor/lib64/libbauthtzcommon.so
+vendor/lib64/libbauthserver.so
+vendor/lib64/libbauthtzcommon.so
 
 ## Firmware
 vendor/firmware/CP_AUDIO_SLSI_SEA.bin
@@ -88,20 +83,20 @@ vendor/firmware/txse3.bin
 vendor/firmware/vts.bin
 
 ## Gatekeeper
--vendor/lib/hw/gatekeeper.exynos9825.so
--vendor/lib64/hw/gatekeeper.exynos9825.so
+vendor/lib/hw/gatekeeper.exynos9825.so
+vendor/lib64/hw/gatekeeper.exynos9825.so
 
 ## GPS
--vendor/bin/hw/gpsd
--vendor/bin/hw/vendor.samsung.hardware.gnss@2.1-service
+vendor/bin/hw/gpsd
+vendor/bin/hw/vendor.samsung.hardware.gnss@2.1-service
 vendor/etc/gnss/gps.xml
 vendor/etc/init/init.gps.rc
 vendor/etc/init/vendor.samsung.hardware.gnss@2.1-service.rc
--vendor/lib64/libwrappergps.so
--vendor/lib64/vendor.samsung.hardware.gnss@2.1.so
--vendor/lib64/hw/gps.default.so
--vendor/lib64/hw/android.hardware.gnss@2.1-impl.so
--vendor/lib64/hw/vendor.samsung.hardware.gnss@2.1-impl.so
+vendor/lib64/libwrappergps.so
+vendor/lib64/vendor.samsung.hardware.gnss@2.1.so
+vendor/lib64/hw/gps.default.so;FIX_SONAME
+vendor/lib64/hw/android.hardware.gnss@2.1-impl.so;FIX_SONAME
+vendor/lib64/hw/vendor.samsung.hardware.gnss@2.1-impl.so
 
 ## NFC
 vendor/firmware/nfc/sec_s3nrn82_firmware.bin
@@ -112,12 +107,12 @@ vendor/etc/plmn_se13.bin
 vendor/etc/init/init.baseband.rc
 
 ## Sensors
--vendor/bin/hw/lhd
+vendor/bin/hw/lhd
 vendor/etc/sensor/lhd.conf
--vendor/lib/sensors.bio.so
--vendor/lib/sensors.sensorhub.so
--vendor/lib64/sensors.bio.so
--vendor/lib64/sensors.sensorhub.so
+vendor/lib/sensors.bio.so
+vendor/lib/sensors.sensorhub.so
+vendor/lib64/sensors.bio.so
+vendor/lib64/sensors.sensorhub.so
 
 ## TEEGRIS Firmware
 vendor/tee/00000000-0000-0000-0000-000000534b4d
@@ -130,11 +125,11 @@ vendor/tee/00000000-0000-0000-0000-657365447276
 vendor/tee/driver/00000000-0000-0000-0000-53626f786476
 
 ## VaultKeeper
--vendor/bin/vaultkeeperd
+vendor/bin/vaultkeeperd
 vendor/etc/init/vaultkeeper_common.rc
--vendor/lib64/libstork_shared.so
--vendor/lib64/libvkmanager_vendor.so
--vendor/lib64/libvkservice.so
+vendor/lib64/libstork_shared.so
+vendor/lib64/libvkmanager_vendor.so
+vendor/lib64/libvkservice.so
 
 ## Wi-Fi
 vendor/firmware/bcmdhd_clm.blob

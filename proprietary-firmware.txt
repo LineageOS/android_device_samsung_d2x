@@ -1,33 +1,33 @@
 # Firmware for model SM-N976B - from Samsung package version N976BXXS9HWHB
 
-cm.bin_SM-N976B
-dqmdbg.img_SM-N976B
-keystorage.bin_SM-N976B
-modem.bin_SM-N976B
-modem_5g.bin_SM-N976B
-modem_debug.bin_SM-N976B
-modem_debug_5g.bin_SM-N976B
-param.bin_SM-N976B
-sboot.bin_SM-N976B
-uh.bin_SM-N976B
-up_param.bin_SM-N976B
+cm.bin_SM-N976B|98b8824c149838c9fb2490a7811f0f34ee28dd87
+dqmdbg.img_SM-N976B|31343f06c117d1b72261b1a7ac459d5c69db5716
+keystorage.bin_SM-N976B|ae0fec716563d2c1bbba8738a2abac0ebf4b7552
+modem.bin_SM-N976B|404011bd63c3b5d2a6ec9bffe15bfdea2e7e36cd
+modem_5g.bin_SM-N976B|c15804b5d8c52c5d4e5e6e54f216793072e35b38
+modem_debug.bin_SM-N976B|a61ae264f1289a880b623cdb0575f6c386cfcd58
+modem_debug_5g.bin_SM-N976B|60d4b43a1e791ed512d0bc0ff9eaf049c28ffb31
+param.bin_SM-N976B|9e98ab97cb1528796416a32168b903ebe3b46756
+sboot.bin_SM-N976B|4c365e1d1b1bcf0fbcfff12138cd6e2f433b19e7
+uh.bin_SM-N976B|5d1b8b1a859023181957eb8572870f0914069880
+up_param.bin_SM-N976B|94dafb982f44725c8cb5431a35df3f513ccdd287
 
 # Firmware for model SM-N976N - from Samsung package version N976NKSU2HWH5
 
-cm.bin_SM-N976N
-dqmdbg.img_SM-N976N
-keystorage.bin_SM-N976N
-modem.bin_SM-N976N
-modem_5g.bin_SM-N976N
-modem_debug.bin_SM-N976N
-modem_debug_5g.bin_SM-N976N
-param.bin_SM-N976N
-sboot.bin_SM-N976N
-uh.bin_SM-N976N
-up_param.bin_SM-N976N
+cm.bin_SM-N976N|a6f47c31b01328191f1c24824029434abb2876b1
+dqmdbg.img_SM-N976N|d44821c2e15dea283076cb4e9759e3905c6fe4f0
+keystorage.bin_SM-N976N|7476e6d58c09957d560c7f2e0201d17e497997a1
+modem.bin_SM-N976N|4e97917cf22ae6ba980717abbfad4fe6d8255bef
+modem_5g.bin_SM-N976N|31ea54305b178dbc2179496d50558e95dafc073c
+modem_debug.bin_SM-N976N|e7572d7c0326514dd9275400a1b8c2033da3bc7f
+modem_debug_5g.bin_SM-N976N|4a24b00f255aaf201ab5b8732cf284bb8dd5e73c
+param.bin_SM-N976N|98ac2ea8eb3cf09a1ba0eda7ae7a41caadf6f6dc
+sboot.bin_SM-N976N|037b9d82177e0a42714eece4ebfb3326def247a9
+uh.bin_SM-N976N|96e67a2fde9c315a7c690b9a3717cb9b52b03de3
+up_param.bin_SM-N976N|55bd744c70c387ef4cf763612b9e6c3cd6ad9b33
 
 # File containing the supported models, one per line
-models
+models|3355889615e4a8ae46a6218e5c266655cc079cd9
 # Files containing Samsung package version for supported models
-version_SM-N976B
-version_SM-N976N
+version_SM-N976B|b5c0b6cbf96934f87af8437e550f0dbea1041828
+version_SM-N976N|df5b6f74665415b5ff9c437f84c1759a25fc3280
