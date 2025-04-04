@@ -26,7 +26,7 @@ vendor/firmware/bcm4375B1_semco_sem.hcd
 
 ## Camera - from d2x - N976BXXS7GVB1
 vendor/lib64/hw/camera.exynos9825.so|eba7419002ab6da18526d76cdf180fd7bca89ded
-vendor/lib64/libexynoscamera3.so|7816c732d95bcf861a4e96b80d87fb3ec570798e|7816c732d95bcf861a4e96b80d87fb3ec570798e
+vendor/lib64/libexynoscamera3.so|8e72f7c86dd5648be206e3066f5c3c099c776034|8e72f7c86dd5648be206e3066f5c3c099c776034
 
 ## Camera dependencies
 vendor/lib64/libTOFProc_interface.so
