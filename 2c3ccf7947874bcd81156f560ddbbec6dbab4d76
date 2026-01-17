@@ -16,6 +16,29 @@
       "message": "tested on beyond2lte, but this device seems to need it as well.",
       "revId": "2c3ccf7947874bcd81156f560ddbbec6dbab4d76",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e4ad45a8_cc6d4b23",
+        "filename": "extract-files.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-01-17T18:42:29Z",
+      "side": 1,
+      "message": "no tabs",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 25,
+        "endChar": 1
+      },
+      "revId": "2c3ccf7947874bcd81156f560ddbbec6dbab4d76",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
